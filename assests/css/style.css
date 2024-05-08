@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#fileInput {
+    display: none;
+}
+label {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#convertBtn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#preview {
+    margin-top: 20px;
+}
+#progressBar {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#progress {
+    width: 0;
+    height: 30px;
+    background-color: #007bff;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+#instructions {
+    margin-top: 20px;
+}
